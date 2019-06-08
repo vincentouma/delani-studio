@@ -16,4 +16,10 @@ $(".img3").click(function(){
         $(".para3").show();
     });
 });
+
+$(".para1").click(function(){
+    $(".para1").toggle(function(){
+        $(".img1").show();
+    });
+});
 });
