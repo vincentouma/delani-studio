@@ -1,12 +1,21 @@
 body{
     text-align: center;
 }
+h2,p{
+    text-align: center;
+}
+.landing{
+    position:absolute;
+    text-align: center;
+    margin-left: 23%;
+    padding-right: 30%;
+}
 
 
 #home{
     color: white;
     width: 100%;
-    height: 300p;
+    height: 500px;
     background-image:url(../images/background/h_img.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +26,6 @@ body{
 #services{
     color: white;
     width: 100%;
-    height: 300p;
     background-image: url(../images/background/s_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -30,8 +38,8 @@ body{
 #contacts{
     color: white;
     width: 100%;
-    height: 300p;
-    background-image: url(../images/background/c_image.jpg);
+    /*height: 300px*/;
+    backgro*/und-image: url(../images/background/c_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
