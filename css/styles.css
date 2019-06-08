@@ -50,7 +50,12 @@ h2,p{
     padding-left: 19%;
 }
 #what-we-do{
-    padding:7%; 
+    text-align: center;
+    
+}
+.we-do{
+    display: flex;
+    flex-direction: row;
 }
 .do{
     text-align: center;
@@ -69,3 +74,27 @@ input{
         width: 800px;
         padding: 5%;
     }
+    .social-icon{
+        padding-left: 20%;
+        padding-top: 5%;
+        }
+        
+        .foot{
+            padding: 10%;
+        }
+        .img1{
+            position: relative;
+        }
+        .para1, .para2, .para3{
+           display: none;
+           /*position: absolute;
+        }*/
+        
+        /*#what-we-do{
+        
+            column-gap: 20%;
+            
+        }
+        .social-icon:hover{
+            color:2px lime;
+        }*/
