@@ -55,3 +55,17 @@ h2,p{
 .do{
     text-align: center;
 }
+input{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: transparent;
+    padding-left: 100px;
+    margin-left: 10%;
+    
+    
+    }
+    .textarea,textarea {
+        background-color: transparent;
+        width: 800px;
+        padding: 5%;
+    }
