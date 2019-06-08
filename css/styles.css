@@ -1,6 +1,40 @@
+body{
+    text-align: center;
+}
+
+
 #home{
-    background-image: url(../images/background/h_img.jpg);
+    color: white;
+    width: 100%;
+    height: 300p;
+    background-image:url(../images/background/h_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10%;
 }
 #services{
+    color: white;
+    width: 100%;
+    height: 300p;
     background-image: url(../images/background/s_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10%;
+
+
+}
+#contacts{
+    color: white;
+    width: 100%;
+    height: 300p;
+    background-image: url(../images/background/c_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10%;
 }
