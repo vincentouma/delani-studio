@@ -38,11 +38,20 @@ h2,p{
 #contacts{
     color: white;
     width: 100%;
-    /*height: 300px*/;
-    backgro*/und-image: url(../images/background/c_image.jpg);
+    background-image: url(../images/background/c_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     padding: 10%;
+}
+#about{
+    padding: 7%;
+    padding-left: 19%;
+}
+#what-we-do{
+    padding:7%; 
+}
+.do{
+    text-align: center;
 }
