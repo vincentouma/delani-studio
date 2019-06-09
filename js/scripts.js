@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(".img1").click(function () {
         $(".img1").toggle(function () {
-            $(".para1").show(function () {
+            $(".para1",).show(function () {
                 $("#h3a").css('font-weight', 'bold');
             });
         });
@@ -46,6 +46,14 @@ $(document).ready(function () {
             });
         });
     });
-
-
+    
+        $("#contact").submit(function(e) {
+            //e.preventDefault();
+            var user=document.getElementById("name").value;
+            alert(user+" your massage has been recieved succesfuly and thanks for keeping in touch");
+           
+               
+        });
+    
+   
 });

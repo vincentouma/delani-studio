@@ -11,7 +11,7 @@ h2 {
 h6,
 p {
     text-align: center;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Taviraj', serif;
     font-size: large;
     font-weight: 500;
 }
@@ -55,7 +55,7 @@ h3 {
 
 }
 
-#contacts {
+.contacts {
     color: white;
     width: 100%;
     background-image: url(../images/background/c_image.jpg);
@@ -74,6 +74,7 @@ h3 {
 
 #what-we-do {
     text-align: center;
+    padding: 7%;
 
 }
 
@@ -127,4 +128,13 @@ textarea {
 .para2,
 .para3 {
     display: none;
+}
+.icon{
+    text-align: center;
+}
+
+#button{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
 }
