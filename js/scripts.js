@@ -29,6 +29,11 @@ $(".para2").click(function(){
     });
 });
 
+$(".para3").click(function(){
+    $(".para3").toggle(function(){
+        $(".img3").show();
+    });
+});
 
 
 });
