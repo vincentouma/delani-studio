@@ -1,15 +1,17 @@
 body{
     text-align: center;
 }
-h1{
-    font-family: 'Cinzel', serif;  
+h1,h2{
+    font-family: 'Cinzel', serif;
+    text-align: center;  
 }
 h6,p{
     text-align: center;
     font-family: 'Old Standard TT', serif;
     font-size: large;
+    font-weight: 500;
 }
-h2{
+h3{
     text-align: center;
     font-family: 'Saira', sans-serif;
 }
@@ -41,6 +43,7 @@ h2{
     background-size: cover;
     position: relative;
     padding: 5%;
+    opacity: 0.9;
 
 
 }
@@ -64,14 +67,16 @@ h2{
 }
 .we-do{
     display: flex;
-    flex-direction:row;
-    padding-left: 0%;
+    
     
     
 }
 .do{
     text-align: center;
 }
+/*#portfolio{
+    display: flex;
+}*/
 input{
    
     text-decoration: none;
