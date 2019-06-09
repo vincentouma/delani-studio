@@ -22,4 +22,13 @@ $(".para1").click(function(){
         $(".img1").show();
     });
 });
+
+$(".para2").click(function(){
+    $(".para2").toggle(function(){
+        $(".img2").show();
+    });
+});
+
+
+
 });
