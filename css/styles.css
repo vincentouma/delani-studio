@@ -1,8 +1,17 @@
 body{
     text-align: center;
 }
-h2,p{
+h1{
+    font-family: 'Cinzel', serif;  
+}
+h6,p{
     text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-size: large;
+}
+h2{
+    text-align: center;
+    font-family: 'Saira', sans-serif;
 }
 .landing{
     position:absolute;
@@ -31,7 +40,7 @@ h2,p{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 10%;
+    padding: 5%;
 
 
 }
@@ -55,17 +64,22 @@ h2,p{
 }
 .we-do{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
+    padding-left: 0%;
+    
+    
 }
 .do{
     text-align: center;
 }
 input{
+   
     text-decoration: none;
     border: 1px solid white;
     background-color: transparent;
     padding-left: 100px;
     margin-left: 10%;
+    color: white;
     
     
     }
@@ -89,7 +103,9 @@ input{
            display: none;
            /*position: absolute;
         }*/
+         
         
+        }
         /*#what-we-do{
         
             column-gap: 20%;
