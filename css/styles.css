@@ -13,7 +13,7 @@ p {
     text-align: center;
     font-family: 'Taviraj', serif;
     font-size: large;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 h3 {
@@ -63,7 +63,7 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 10%;
+    padding: 7%;
 }
 
 #about {
@@ -95,15 +95,17 @@ input {
     text-decoration: none;
     border: 1px solid white;
     background-color: transparent;
-    padding-left: 100px;
-    margin-left: 10%;
+    padding-left: 10%;
+    margin-right: 10%;
     color: white;
+    column-gap: 5%;
 
 
 }
 
 .textarea,
 textarea {
+    color: white;
     background-color: transparent;
     width: 800px;
     padding: 5%;
@@ -129,12 +131,24 @@ textarea {
 .para3 {
     display: none;
 }
-.icon{
+
+.icon {
     text-align: center;
 }
 
-#button{
-    width: 100px;
-    height: 40px;
-    background-color: transparent;
+
+#disc1 {
+    box-sizing: border-box;
+    border: 3px solid white;
+    width: 200px;
+    height: 200px;
+    display: none;
+    top: 0.5em;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.over:hover.disc1 {
+    opacity: 0.9;
+
 }
