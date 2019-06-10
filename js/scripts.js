@@ -50,7 +50,7 @@ $(document).ready(function () {
   $("#contact").submit(function (e) {
 
     var user = document.getElementById("name").value;
-    alert(user + " your massage has been recieved succesfuly and thanks for keeping in touch");
+    alert(user + " your massage has been recieved successfully and thanks for keeping in touch");
 
   });
 
