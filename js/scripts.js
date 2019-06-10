@@ -56,6 +56,7 @@ $(document).ready(function () {
 
 
   $(".prjct").hide();
+  $("pjct").animate({opacity:0.2}, 1000);
   $(".pic1").hover(function () {
     $(this).find(".prjct").toggle(400);
   });
