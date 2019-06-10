@@ -54,12 +54,12 @@ $(document).ready(function() {
 
   });
 
-  $('.pic1').on("mouseover", function() {
-    $('.pic1-overlay').show();
+  
+  $(".prjct").hide();
+  $(".pic1").hover(function(){
+      $(this).find(".prjct").toggle(400);
+  });
+  
   });
 
-  $('.pic1-overlay').on("mouseout", function() {
-    $('.pic11-overlay').hide();
-  });
 
-});
